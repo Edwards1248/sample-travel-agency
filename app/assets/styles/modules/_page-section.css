@@ -7,6 +7,13 @@
   }
 
   &--blue {
+    padding-top: 1.5rem;
     background-color: $mainBlue;
+    color: #FFF;
+
+    @mixin atMedium {
+      padding-left: 3rem;
+      padding-right: 3.5rem;
+    }
   }
 }
